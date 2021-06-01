@@ -1,6 +1,7 @@
 ---
 title: Customize the Favicon
-author: Cotes Chung
+author: Githin Manesh
+author_url: https://twitter.com/atomixhawk
 date: 2019-08-11 00:34:00 +0800
 categories: [Blogging, Tutorial]
 tags: [favicon]

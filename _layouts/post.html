@@ -3,11 +3,7 @@ layout: default
 # The posts' layout
 ---
 
-<style> 
-  .share-btn-cls {
-    margin-left: 5px;
-  }
-</style>
+{{ site.authors }}
 
 <div class="row">
 
@@ -25,9 +21,13 @@ layout: default
         <!-- Published date and author -->
         <div>
           <span class="semi-bold">
-            {{ page.author | default: site.social.name }}
+            {% if page.author_url %}
+              By: <a href="{{ page.author_url }}">{{ page.author }}</a>
+            {% else %}
+              By: {{ page.author | default: site.social.name }}
+            {% endif %}
           </span>
-          {% include timeago.html date=page.date prep="on" tooltip=true %}
+          - {% include timeago.html date=page.date prep="on" tooltip=true %}
         </div>
 
         <div>
