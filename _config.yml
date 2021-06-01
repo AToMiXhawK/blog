@@ -137,13 +137,13 @@ sass:
   style: compressed
 
 compress_html:
-  clippings: false
+  clippings: all
   comments: all
-  endings: false
+  endings: all
   profile: false
   blanklines: false
   ignore:
-    envs: [development]
+    envs: [development, production]
 
 exclude:
   - '*.gem'
