@@ -26,6 +26,11 @@ const resource = [
     '{{ tab.url | relative_url }}',
   {% endfor %}
 
+  /* --- Posts --- */
+  {% for post in site.posts %}
+    '{{ post.url | relative_url }}',
+  {% endfor %}
+
   /* --- Favicons --- */
   {% assign favicon_path = "/assets/img/favicons" | relative_url %}
 
