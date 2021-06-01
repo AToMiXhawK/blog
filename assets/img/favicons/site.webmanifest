@@ -37,5 +37,47 @@ layout: compress
   "theme_color": "#2a1e6b",
   "background_color": "#1c1c1c",
   "display": "standalone",
-  "orientation": "portrait-primary"
+  "orientation": "portrait-primary",
+  "categories": ["blog", "tech", "foss", "education"],
+  "shortcuts": [
+    {
+      "name": "Home",
+      "short_name": "Home",
+      "description": "Homepage of this blog",
+      "url": "{{ '/index.html' | relative_url }}",
+      "icons": [{ "src": "{{ favicon_path }}/home.png", "sizes": "48x48" }]
+    },
+    {
+      "name": "Categories",
+      "short_name": "Categories",
+      "description": "View the categories of posts in this blog",
+      "url": "{{ '/categories' | relative_url }}",
+      "icons": [{ "src": "{{ favicon_path }}/categories.png", "sizes": "48x48" }]
+    },
+    {
+      "name": "Tags",
+      "short_name": "Tags",
+      "description": "View the tags associated with posts in this blog",
+      "url": "{{ '/tags' | relative_url }}",
+      "icons": [{ "src": "{{ favicon_path }}/tags.png", "sizes": "48x48" }]
+    },
+    {
+      "name": "Archives",
+      "short_name": "Archives",
+      "description": "View the timeline of the blog",
+      "url": "{{ '/archives' | relative_url }}",
+      "icons": [{ "src": "{{ favicon_path }}/archives.png", "sizes": "48x48" }]
+    },
+    {
+      "name": "About",
+      "short_name": "About",
+      "description": "About this blog",
+      "url": "{{ '/about' | relative_url }}",
+      "icons": [{ "src": "{{ favicon_path }}/about.png", "sizes": "48x48" }]
+    }
+  ],
+  "features": [
+    "Cross Platform",
+    "Read Offline"
+  ]
 }
