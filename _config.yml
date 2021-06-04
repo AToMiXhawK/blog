@@ -15,14 +15,12 @@ timezone: Asia/kolkata
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # --------------------------
-title: AToMiXhawK                          # the main title
+title: Githin's Dev Blog                         # the main title
 
-tagline: Personal Blog   # it will display as the sub-title
+tagline: Eat - Play - Code - Sleep   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, portfolio, sidebar,
-  bootstrap Jekyll theme with responsive web design
-  and focuses on text presentation.
+  Githin's Personal Blog for documenting self-hosting setups and whatnot.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://githin.xyz'
@@ -50,7 +48,7 @@ google_site_verification: google_meta_tag_verification # change to your verifica
 # --------------------------
 
 google_analytics:
-  id: ''              # fill in your Google Analytics ID
+  id: 'G-ME3W6KCEK0'              # fill in your Google Analytics ID
   # Google Analytics pageviews report settings
   pv:
     proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine
