@@ -51,7 +51,7 @@ google_analytics:
   id: 'G-MFD7MMZ28W'              # fill in your Google Analytics ID
   # Google Analytics pageviews report settings
   pv:
-    proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine
+    proxy_endpoint: "https://hawk-blog.el.r.appspot.com/query?id=agtqfmhhd2stYmxvZ3IVCxIIQXBpUXVlcnkYgICA6NeHgQoM"  # fill in the Google Analytics superProxy endpoint of Google App Engine
     cache_path:       # the local PV cache data, friendly to visitors from GFW region
 
 # Prefer color scheme setting.
