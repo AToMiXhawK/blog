@@ -1,0 +1,80 @@
+
+
+{
+  "name": "Githin's Dev Blog",
+  "short_name": "Githin's Dev Blog",
+  "description": "Githin's Personal Blog for documenting self-hosting setups and whatnot.",
+  "icons": [
+    {
+      "src": "/assets/img/favicons/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/img/favicons/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/img/favicons/maskable_icon_x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/assets/img/favicons/maskable_icon_x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }],
+  "start_url": "/index.html",
+  "theme_color": "#2a1e6b",
+  "background_color": "#1c1c1c",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "categories": ["blog", "tech", "foss", "education"],
+  "shortcuts": [
+    {
+      "name": "Home",
+      "short_name": "Home",
+      "description": "Homepage of this blog",
+      "url": "/index.html",
+      "icons": [{ "src": "/assets/img/favicons/home.png", "sizes": "48x48" }]
+    },
+    {
+      "name": "Categories",
+      "short_name": "Categories",
+      "description": "View the categories of posts in this blog",
+      "url": "/categories",
+      "icons": [{ "src": "/assets/img/favicons/categories.png", "sizes": "48x48" }]
+    },
+    {
+      "name": "Tags",
+      "short_name": "Tags",
+      "description": "View the tags associated with posts in this blog",
+      "url": "/tags",
+      "icons": [{ "src": "/assets/img/favicons/tags.png", "sizes": "48x48" }]
+    },
+    {
+      "name": "Archives",
+      "short_name": "Archives",
+      "description": "View the timeline of the blog",
+      "url": "/archives",
+      "icons": [{ "src": "/assets/img/favicons/archives.png", "sizes": "48x48" }]
+    },
+    {
+      "name": "About",
+      "short_name": "About",
+      "description": "About this blog",
+      "url": "/about",
+      "icons": [{ "src": "/assets/img/favicons/about.png", "sizes": "48x48" }]
+    }
+  ],
+  "features": [
+    "Cross Platform",
+    "Read Offline"
+  ]
+}
+
