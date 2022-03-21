@@ -36,3 +36,9 @@ The following table will helps you understand the changes to the favicon files:
 > Note: ✓ means keep, ✗ means delete.
 
 The next time you build the site, the favicon will be replaced with a customized edition.
+
+---
+
+**Update:** Got a suggestion from a reader of the blog to use [Website Planet Favicon Generator](https://www.websiteplanet.com/webtools/favicon-generator/) for source images having file size greater than 2MB. This tool allows to create favicons from pictures that are up to 5 MB from either JPG, PNG or GIF.
+
+---
